@@ -373,7 +373,7 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2021</div>
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Your Website 2022</div>
                     <!--div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
@@ -420,25 +420,103 @@
                                         <li>Pushing files from pc to github</li>
                                         <li>Hosting website</li>
                                     </ol> 
-                                    <p>The following steps were followed </p>
-                                    </div>
-
-                                    <ul class="list-inline">
-                                        <li>
-                                            <strong>Client:</strong>
-                                            Threads
-                                        </li>
-                                        
-                                        <li>
-                                            <strong>Category:</strong>
-                                            Illustration
-                                        </li>
-                                 
-                                    </ul>
+                                    <p>The following steps were followed. </p>
                                     
+                                    <strong><p>1. Creating git account: </p></strong>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-account.PNG" alt="..." style="width:400px;height:300px;"/>
+                                    <p>Main page in git. </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-main-page.PNG" alt="..." />
+                                    <p>Creating new repository and adding discription. </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/new-repository.PNG" alt="..." />   
+                                    <p>Adding description of the repository.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/description-repo.PNG" alt="..." />   
+                                    
+                                        <strong><p>2. Downloading git Bash for windows: </p></strong>
+                                        
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-bash.PNG" alt="..." style="width:400px;height:300px;"/>
+                                    <p>Checking up git version installed. </p>
+                                      <img class="img-fluid" src="assets/img/Project%20management/git-version.PNG" alt="..." />
+                                    <strong><p>3. Setting up git: </p></strong>
+                                    <p> Next is creating my git page, I have created my git page username as (FatimaShamsi) as per the available usernames, and set my password. </p>
+                                    
+                                     <p>Typing in (ls) command to show the folders/files in my pc.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/ls-command.png" alt="..." />
+                                    <p>Typing in (cd) command to call directory to move between folders, here going to Destop in my pc. The file name is case sensetive, so D shall be in capital.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/cd-command.png" alt="..." />
+                                    <p>Typing in (mkdir myfabacademy) command to make or create a folder in Desktop/ named ( myfabacademy ) .</p>
+                                    <img class="img-fluid" src="assets/img/Project management/make-folder.PNG" alt="..." />
+                                    <p>Configuring git to connect my pc to github website indicating the user of this pc is as same as the user of git hub. </p>
+                                    <p>Below using (git config --global user.name "FatimaShamsi")command to configure git using github username.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-config.PNG" alt="..." />   
+                                    <p>Next below using (git config --global user.name "FatimaShamsi")command to configure git using github user email.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-config-email.PNG" alt="..." />
+                                    <br>
+                                    <strong><p>4. Linking your pc to your github account:</p></strong>
+                                    <p> Going to git page, click on (code) , then copy the clone as shown below. Here, git clone is used to copy or transfer the files from git page (the link copied) to your pc.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-clone.PNG" alt="..." />
+                                    
+                                    <p> Going to the desired file on pc to have the files copies to, then opening git batch , type (git clone ) followed by the coppied link. </p>
+                                    <img class="img-fluid" src="assets/img/Project management/clone.PNG" alt="..." />    
+                                    <p> Generating (ssh) key, referred to as secure shell, to have github linked credentials all the time. </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/ssh-key.PNG" alt="..." /> 
+                                    <p> Going to the directory of file ( windows (C:))--(users)--("my user name")--(.ssh), then opening it with Bracket program, and copy the contents.</p>
+                                    <p> Downloading (Bracket), the program used to edit HTML code of the website and shows the text. </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/brackets.png" alt="..." />
+                                    <p> Added ssh key , in git going to ( settings )--(SSH and GPG keys)-- (new SSH key)--paste the copied key from Brackets --(add). </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/added-sshkey.PNG" alt="..." />
+                                    <strong><p>5. Pushing files from pc to github:</p></strong>
+                                    <p>Using (git status) command , to know the state the working directory.</p>
+                                    <img class="img-fluid" src="assets/img/Project management/status.png" alt="..." />
+                                    <p>Added the file by typing in (git add .) command to add a file to git .</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-add.png" alt="..." />
+                                    <p>Typing in git Bash (git commit -m "added the website files) command to commit and indicate what you are doing in git as changes, here is adding files for website .</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-commit.png" alt="..." style="width:400px;height:500px;"/>
+                                    <p>Typing in (git push) command to push the files and folders in the (fatimawebsite) to (FatimaShamsi) git page .</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/git-push.png" alt="..." />
+                                    <p>The below image shows the files that has been pushed to git in (FatimaShamsi) git page .</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/files-pushed.png" alt="..." />
+                                    <p>Below image shows the files has been pushed to my github page.</p>
+                                    <img class="img-fluid" src="assets/img/Project management/files-pushed.png" alt="..." />
+                                    <p> So, every time I want to add files from my pc to github, I shall be using the below summarized steps commands.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/summary-git-push.PNG" alt="..." />
+                                    
+                                    <strong><p>6. Hosting website:</p></strong>
+                                    <p> Searching for a bootsrap website template. The template I'm using link is <a href="https://startbootstrap.com/theme/agency">Here
+                                               </a>.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/website-template.PNG" alt="..." />
+                                    <p> Downloading the template file, opening it , unzip the folder, and copy all files to the (fatimawebsite) directory in (myfabacademy folder).
+                                    Go to the index file, right click, then open it with Bracket.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/index.PNG" alt="..." />  
+                                    <img class="img-fluid" src="assets/img/Project management/changes.png" alt="..." />
+                                    <p> Click on the icon on the shown as below, this will allow changes to the HTML code to reflect on the website live. </p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/bracket-live.PNG" alt="..." />
+                                    <p>Changing on the original code in bracket.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits1.png" alt="..." />
+                                    <p>Changing (it's nice to meet you) by searching in the HTML file for the statement, then replcing it with the desired.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits2.png" alt="..." />
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits3.png" alt="..." />
+                                    <p>Changing the header(h)of the assignements as shown below.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits4.png" alt="..." />
+                                    <p>Changing the images and the titles of the assignments outer layout.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits5.png" alt="..." style="width:300px;height:300px;"/>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits6.png" alt="..." style="width:300px;height:300px;"/>
+                                    <p>Using (ol) and (li) to create an organized list from the text, in a numerical order.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/code-list.png" alt="..." />
+                                    <img class="img-fluid" src="assets/img/Project%20management/list.png" alt="..."style="width:300px;height:200px;" />
+                                    <p>Below shows using (strong)command/feature to have text displayed in bold.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edits8.png" alt="..." alt="..."style="width:400px;height:300px;"/>
+                                    <p>Changing the image, by inserting the new image directory of the saved in file.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/code.png" alt="..." />
+                                    <p>Ammending the code in the pop-up for Project Management assignment.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/code-popup.png" alt="..." alt="..."style="width:400px;height:400px;"/>
+                                    <p>Changing the logo on the website by replacing the (src) the source code to the desired picture/logo.</p>
+                                    <img class="img-fluid" src="assets/img/Project%20management/edit-logo.png" alt="..." alt="..."style="width:400px;height:300px;"/>
+                                    <img class="img-fluid" src="assets/img/Project%20management/logo-before.png" alt="..." />
+                                    <img class="img-fluid" src="assets/img/Project%20management/logo.png" alt="..." />
+                                    </div>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Close Assignment
                                     </button>
                                 </div>
                             </div>
@@ -457,17 +535,19 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">Project Name</h2>
+                                    <h2 class="text-uppercase">Electronics Production</h2>
                                     <p class="item-intro text-muted"> Assignment 2</p>
                                     <img class="img-fluid d-block mx-auto" src= "assets/img/portfolio/electro1.jpg" alt="..." />
                                     <div class="myDivElement">
                                         <p>In this assignment the task was to print a PCB board, referring the following link :<br> 
-                                       <br><br> <strong>http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html<br></strong>
+                                           <p><a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html">Building the FabTinyISP
+                                            </a></p> 
                                           <p>First step is downloading the traces and the outline images from the link respectively as illustrated below:</p>
                                        <img class="img-fluid" src="assets/img/Electronics%20production/fts_mini_traces%20PCB.png" alt="..." style="width:500px;height:200px;"/> 
                                         <img class="img-fluid" src="assets/img/Electronics%20production/fts_mini_cut.png" alt="..." style="width:500px;height:200px;"/> 
                                         <br> 
-                                       <p>Then navigating to the below link, inserting the image downloaded of the traces.</p><strong>http://fabmodules.org/ </strong>
+                                       <p>Then navigating to the link <a href="http://fabmodules.org/">Here</a>, inserting the image downloaded of the traces.</p>
+                                        <img class="img-fluid" src="assets/img/Electronics production/image.PNG" alt="..."
                                         <br>
                                         <br>
                                         <p> Below screen shot shows the settings for traces file.The needed adjustment is to set output x0, y0, z0 values to 0 value. Then clicking on calculate, the traces path shows as illustrated in the image. Then clicking on save to download the file.</p>
@@ -488,19 +568,19 @@
                                         <p>Up next is making to select the setup for the machine. By selecting (RML-1).</p>
                                         <img class="img-fluid" src="assets/img/Electronics%20production/setup%20config.PNG" alt="..." />
                                         <p>The below step, tighting up the header.</p>
-                                        <img class="img-fluid" src="assets/img/Electronics%20production/tighting-header.JPG" alt="..." />
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/tighting-header.JPG" alt="..." style="width:400px;height:600px;"/>
                                         <p>Setting the X and Y coordination to the desired setpoint on the board. These are the vertical and horizontal orientation.</p>
                                         <img class="img-fluid" src="assets/img/Electronics%20production/x-y-coordination.jpg" alt="..." />
                                         <p>Setting Z coordination of the machine, this is height of the header.</p>
                                     
                                         <p>Callibrating the z coordination of the head (1/64) manually by having the head near the board, but not really touching the board, and calibrating it, untight the screw on the head, then set the suitable hight of the head to be touching the board smoothly.This step is important to prevent from crashing the head to the board and breaking it ( note: callibrating z is done manually). </p>
-                                         <img class="img-fluid" src="assets/img/Electronics%20production/calibration-z.jpg" alt="..." />
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/calibration-z.jpg" alt="..." style="width:300px;height:500px;"/>
                                         <p>setting Z origin point coordination in the program</p>
                                         <img class="img-fluid" src="assets/img/Electronics%20production/setting%20z%20for%20cut.PNG" alt="..." />
                                          <img class="img-fluid" src="assets/img/Electronics%20production/coordination-done.PNG" alt="..." />
                                         
                                           <p>Below picture shows the error accured due to not changing settings to user coordinate system</p>
-                                         <img class="img-fluid" src="assets/img/Electronics%20production/issue1.jpg" alt="..." />
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/issue1.jpg" alt="..." style="width:300px;height:500px;"/>
                                         <p>click on ( cut ) , and delete any files was before (delete all), then insert the traces file as an output by clicking (add), after adding the file, click (output) and the machine will start the traces from the set origin point, the traces starts from the right heading towards the left, this step can take a while, I was preparing the documentation in parallel. </p>
                                         <img class="img-fluid" src="assets/img/Electronics%20production/output1-%20traces.PNG" alt="..." />
                                         
@@ -511,17 +591,30 @@
                                         <p>Writing down the needed electronics to be used for this project, on a sheet of paper with tap on the side to stick the electronics into it , making sure it is in place and organized.</p>
                                         
                                          <img class="img-fluid" src="assets/img/Electronics%20production/electronics-sheet.jpg" alt="..." />
-                                        
                                           <img class="img-fluid" src="assets/img/Electronics%20production/electronics.jpg" alt="..." />
-                                          <p>Soldering the electronics to the board.</p>
+                                         <img class="img-fluid" src="assets/img/Electronics production/Electronics-in.jpg" alt="..." />
+                                          <p>Removing the copper on the side of the board.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/remove-copper.PNG" alt="..." />
+                                          <p>Soldering the electronics to the board.Note: make sure to solder the correct electronics parts to the correct position and direction. for the LED, the green line should be directed down. for the diods, pay attention to the direction as it matters, the line on the side of the diod shall be directed down as per the below orientation.</p>
                                           <img class="img-fluid" src="assets/img/Electronics%20production/PCB-printed.JPG" alt="..." />
-                                          <p> Starting the slodering be filling the pads with solder, then placing the components on place with the clip , then heating up the solder so that the component solders in place.</p>
+                                          <p> Starting the slodering be filling the pads with solder, then placing the components on place with the clip , then heating up the solder so that the component solders in place. Following the below circuit connection layout.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/layout.PNG" alt="..." />
                                           <img class="img-fluid" src="assets/img/Electronics%20production/soldering.jpg" alt="..." />
                                         
                                           <img class="img-fluid" src="assets/img/Electronics%20production/done-soldering.jpg" alt="..." />
-                                          
-                                          
-                                    
+                                          <p> The faced dificulties were, the connection of the ISP wasn't going well, as the pins were lifting up, and I had to lower it by adding more solder to make sure it is connected properly to the circuit.</p>
+                                          <p>Another issue I have faced was while soldering,  where I would apply too much solder melt on a component, thus I used the de-soldering wire to remove the extra melt and prevent any damage or short circuit.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/wire-desoldering.jpg" alt="..." />
+                                          <p>After soldering all the components, solder and bridge between the below shown points between the ISP header and the tiny45. <strong>Note: the tiny controller I am using here is tiny85.</strong></p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/bridging.PNG" alt="..." />
+                                           <p>A very important step next, is to check connections of the electronics on the board, by using the Multimeter. Setting the Multimeter to Diod/ Ohm sign, pressing on the blue button on the top right side, clapping the red wire needle to the black, a beep will be audible, indicating the two points are connected. Going the board, checking the connection between ground and VCC+ shall not be connected. The checking on the main coninections between ISP and tiny85. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/Multimeter.jpg" alt="..." />
+                                           <p>Installing WinAVR</p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/winavr.png" alt="..." />
+                                           <p>Installing Zadig from <a href="https://zadig.akeo.ie/">here</a></p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/zadig.png" alt="..." />
+                                           https://www.instructables.com/Program-an-ATtiny44458485-with-Arduino/
+                                           
                                       
                                     </div>
                                     <ul class="list-inline">
@@ -536,7 +629,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-times me-1"></i>
-                                        Close Project
+                                        Close Assignment
                                     </button>
                                 </div>
                             </div>
