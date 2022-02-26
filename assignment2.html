@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Fatima AlShamsi</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><img src="assets/img/Fab_Lab_logo.svg.png" alt="..." style="width:50px;height:60px;" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Home</a></li>
+                       
+                        <li class="nav-item"><a class="nav-link" href="#about">About Fatima</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Assignments</a></li>
+                        <!--li class="nav-item"><a class="nav-link" href="#team">Item 4</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact">item 5</a></li-->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+         <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Electronics Production</h2>
+        <!-- Portfolio item 2 modal popup-->
+         <!--div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true"-->
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                                    <!-- Project details-->
+                                    
+                                    
+                                    <img class="img-fluid d-block mx-auto" src= "assets/img/portfolio/electro1.jpg" alt="..." />
+                                    <div class="myDivElement">
+                                        <p>In this assignment the task was to print a PCB board, referring the following link :<br> 
+                                           <p><a href="http://fab.cba.mit.edu/classes/863.16/doc/projects/ftsmin/index.html">Building the FabTinyISP
+                                            </a></p> 
+                                          <p>First step is downloading the traces and the outline images from the link respectively as illustrated below:</p>
+                                       <img class="img-fluid" src="assets/img/Electronics production/fts_mini_traces PCB.png" alt="..." style="width:500px;height:200px;"/> 
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/fts_mini_cut.png" alt="..." style="width:500px;height:200px;"/> 
+                                        <br> 
+                                       <p>Then navigating to the link <a href="http://fabmodules.org/">Here</a>, inserting the image downloaded of the traces.</p>
+                                        <img class="img-fluid" src="assets/img/Electronics production/image.PNG" alt="...">
+                                        <br>
+                                        <br>
+                                        <p> Below screen shot shows the settings for traces file.The needed adjustment is to set output x0, y0, z0 values to 0 value. Then clicking on calculate, the traces path shows as illustrated in the image. Then clicking on save to download the file.</p>
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Capture1%20-%20traces.PNG" alt="..." style="width:10000px;height:500px;"/>
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Capture2%20-%20traces.PNG" alt="..." style="width:200px;height:800px;"/>
+                                        <p>Then navigating to the below link, inserting the image downloaded of the outline.</p> <br>
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Capture1%20-%20outline.PNG" alt="..." style="width:10000px;height:500px;"/>
+                                    <br>
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Capture2%20-%20outline.PNG" alt="..." style="width:200px;height:800px;"/>
+                                      <p>Below is he head used to be manually installed  to the machine to make the traces on the board. The head used is 1/64inch, that is approximitally 0.4mm thickness. </p>
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Tracing-header.jpg" alt="..." />
+                                      <img class="img-fluid" src="assets/img/Electronics%20production/Tracing-header1.jpg" alt="..." />
+                                      <p>below is the used PCB machine for CNC milling machine Roland ( SRM-20).</p> 
+                                       <img class="img-fluid" src="assets/img/Electronics production/PCB-machine.jpg" alt="..." />
+                                       <p>Using the program VPanel for SRM-20 to make the settings and callibrations of the machine.starting with changing the option at the left from (Machine coordinate System) to (User Coordinate System),this is important as one of the mistakes i have done was having it on the Machine Coordinate System and after all the steps the traces failed. As the head crashed the board harshly as shown below. So a note: change it to user coordinate system as you the user will do the changes.</p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/user-coordination.jpg" alt="..." />
+                                       <img class="img-fluid" src="assets/img/Electronics%20production/Capture%20-%20setting%20origin%20point.PNG" alt="..." />
+                                        <p>Up next is making to select the setup for the machine. By selecting (RML-1).</p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/setup%20config.PNG" alt="..." />
+                                        <p>The below step, tighting up the header.</p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/tighting-header.JPG" alt="..." style="width:400px;height:600px;"/>
+                                        <p>Setting the X and Y coordination to the desired setpoint on the board. These are the vertical and horizontal orientation.</p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/x-y-coordination.jpg" alt="..." />
+                                        <p>Setting Z coordination of the machine, this is height of the header.</p>
+                                    
+                                        <p>Callibrating the z coordination of the head (1/64) manually by having the head near the board, but not really touching the board, and calibrating it, untight the screw on the head, then set the suitable hight of the head to be touching the board smoothly.This step is important to prevent from crashing the head to the board and breaking it ( note: callibrating z is done manually). </p>
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/calibration-z.jpg" alt="..." style="width:300px;height:500px;"/>
+                                        <p>setting Z origin point coordination in the program</p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/setting%20z%20for%20cut.PNG" alt="..." />
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/coordination-done.PNG" alt="..." />
+                                        
+                                          <p>Below picture shows the error accured due to not changing settings to user coordinate system</p>
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/issue1.jpg" alt="..." style="width:300px;height:500px;"/>
+                                        <p>click on ( cut ) , and delete any files was before (delete all), then insert the traces file as an output by clicking (add), after adding the file, click (output) and the machine will start the traces from the set origin point, the traces starts from the right heading towards the left, this step can take a while, I was preparing the documentation in parallel. </p>
+                                        <img class="img-fluid" src="assets/img/Electronics%20production/output1-%20traces.PNG" alt="..." />
+                                        
+                                        <p>Starting with traces first then move on to the cut.</p>
+                                        <p>For the cut, replce the head with 1/32 head.The most important thing is to keep the X and Y coordination settings the same as the origin point.In this step, only adjust the Z coordination, and as done for the traces, calibrate the Head manually with the screwdriver. </p>
+                                        
+                                    
+                                        <p>Writing down the needed electronics to be used for this project, on a sheet of paper with tap on the side to stick the electronics into it , making sure it is in place and organized.</p>
+                                        
+                                         <img class="img-fluid" src="assets/img/Electronics%20production/electronics-sheet.jpg" alt="..." />
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/electronics.jpg" alt="..." />
+                                         <img class="img-fluid" src="assets/img/Electronics production/Electronics-in.jpg" alt="..." />
+                                          <p>Removing the copper on the side of the board.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/remove-copper.PNG" alt="..." />
+                                          <p>Soldering the electronics to the board.Note: make sure to solder the correct electronics parts to the correct position and direction. for the LED, the green line should be directed down. for the diods, pay attention to the direction as it matters, the line on the side of the diod shall be directed down as per the below orientation.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/PCB-printed.JPG" alt="..." />
+                                          <p> Starting the slodering be filling the pads with solder, then placing the components on place with the clip , then heating up the solder so that the component solders in place. Following the below circuit connection layout.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/layout.PNG" alt="..." />
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/soldering.jpg" alt="..." />
+                                        
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/done-soldering.jpg" alt="..." />
+                                          <p> The faced dificulties were, the connection of the ISP wasn't going well, as the pins were lifting up, and I had to lower it by adding more solder to make sure it is connected properly to the circuit.</p>
+                                          <p>Another issue I have faced was while soldering,  where I would apply too much solder melt on a component, thus I used the de-soldering wire to remove the extra melt and prevent any damage or short circuit.</p>
+                                          <img class="img-fluid" src="assets/img/Electronics%20production/wire-desoldering.jpg" alt="..." />
+                                          <p>After soldering all the components, solder and bridge between the below shown points between the ISP header and the tiny45. <strong>Note: the tiny controller I am using here is tiny85.</strong></p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/bridging.PNG" alt="..." />
+                                           <p>A very important step next, is to check connections of the electronics on the board, by using the Multimeter. Setting the Multimeter to Diod/ Ohm sign, pressing on the blue button on the top right side, clapping the red wire needle to the black, a beep will be audible, indicating the two points are connected. Going the board, checking the connection between ground and VCC+ shall not be connected. The checking on the main coninections between ISP and tiny85. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/Multimeter.jpg" alt="..." />
+                                           <p>Installing WinAVR</p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/winavr.png" alt="..." />
+                                           <p>Installing Zadig from <a href="https://zadig.akeo.ie/">here</a></p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/zadig.png" alt="..." />
+                                        <p>Type in command (make -v)</p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/makev.png" alt="..." />
+                                         <p>Installing WinAVR</p>
+                                           <img class="img-fluid" src="assets/img/Electronicsproduction/avr-gcc.png" alt="..." />
+                                          <p>connecting to a working usb that is already programmed. And typing the below command. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/avrdude.png" alt="..." />
+                                           <p>Setting Zadic options as below. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics%20production/zadic-options.png" alt="..." />
+                                            <p>Setting Zadic options as below. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/install-driver.png" alt="..." />
+                                           <p>Going to git bash, typing in (make flash) while pushing in the usb in to keep the LED lighting. </p>
+                                           <img class="img-fluid" src="assets/img/Electronics production/make-flash.png" alt="..." />
+                                           
+                                        
+                                        <a href="https://www.instructables.com/Program-an-ATtiny44458485-with-Arduino/"> program tiny85</a>
+                                        
+                                        
+                                           
+                                      
+                                    </div>
+                                  
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Assignment
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+               
